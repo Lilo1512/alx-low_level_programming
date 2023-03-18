@@ -9,8 +9,7 @@
  */
 
 
-int msin(void)
-
+int main(void)
 
 
 {
@@ -18,8 +17,10 @@ int msin(void)
 	e = 'e';
 	q = 'q';
         for (low = 'a' ; low <= 'z' ; low++)
-	{
+	
 	if (low != e && low != q)
-	}
+	
         putchar('\n');
 	return (0);
+
+}
