@@ -1,7 +1,9 @@
-int putchar(char c);
+#include <stdio.h>
+
+int ('char' c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-int is lower(int c);
+int is,lower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int abs(int);
@@ -10,4 +12,4 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
-void print times_table(int n);
+void print_times_table(int n);
