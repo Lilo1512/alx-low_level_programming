@@ -11,13 +11,11 @@ int main(void)
 
     print_last_digit(98);
     print_last_digit(0);
-    print_last_digit(INT_MIN);
-    print_last_digit(INT_MAX);
     print_last_digit(1);
     print_last_digit(-1024);
     r = print_last_digit(-1024);
-    _putchar('0' + r);
-    _putchar('\n');
+    putchar('0' + r);
+    putchar('\n');
 
     return (0);
 
