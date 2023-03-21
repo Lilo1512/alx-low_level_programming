@@ -18,5 +18,6 @@ int main(void)
     r = _isalpha(';');
     putchar(r + '0');
     putchar('\n');
+
     return (0);
 }
