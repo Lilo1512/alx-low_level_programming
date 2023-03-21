@@ -1,7 +1,7 @@
-#include "4-main.h"
+#include "main.h"
 /**
  * isalpha-Checks for alphabetic character *@c: The character to be checked
- * Return: 1 for alphabetic character or for 0  anything else
+ * Return: 1 for alphabetic character or 0 for anything else
  */
 
 int isalpha(int c)
