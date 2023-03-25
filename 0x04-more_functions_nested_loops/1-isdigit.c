@@ -5,7 +5,7 @@
   *  Return: 1 for upper letter or 0 for else
   */
 
-int _isupper(int x)
+int _isdigit(int x)
 
 {
 
