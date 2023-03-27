@@ -28,4 +28,6 @@ void print_triangle(int size);
 
 void print_rev(char *s);
 
+void rev_string(char *s);
+
 void reset_to_98(int *n);
