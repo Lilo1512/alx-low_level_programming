@@ -33,3 +33,5 @@ void rev_string(char *s);
 void puts2(char *str);
 
 void reset_to_98(int *n);
+
+void puts_half(char *str);
