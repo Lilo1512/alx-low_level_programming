@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * strncat function that concatenates two strings.
  * @dest: destination string pointer.
@@ -7,6 +8,7 @@
  *
  * Return: pointer to destination string.
  */
+
 char *_strncat(char *dest, char *src, int n)
 
 {
