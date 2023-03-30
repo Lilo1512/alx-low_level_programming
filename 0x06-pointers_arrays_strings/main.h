@@ -55,3 +55,5 @@ char *cap_string(char *);
 char *leet (char *str);
 
 char *leet(char *s);
+
+char *rot13(char *);
