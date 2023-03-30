@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * leet - leet encoding
  * @str: string to be encoded
  * Return: str
  */
+
 char *leet (char *str)
 {
 int i;
