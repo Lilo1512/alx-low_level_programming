@@ -10,7 +10,7 @@ if (*s == '\0')
 {
 return;
 }
-S++;
+s++;
 _print_rev_recursion(s);
 s--;
 _putchar(*s);
