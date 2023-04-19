@@ -1,4 +1,3 @@
-#include "main.h"
 #include "function_pointers.h"
 
 /**
@@ -7,6 +6,7 @@
  * @f: Pointer to function
  * Return: Nothing
  */
+
 void print_name(char *name, void (*f)(char *))
 
 {
