@@ -22,7 +22,6 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 char *create_array(unsigned int size, char c);
-void simple_print_buffer(char *buffer, unsigned int size);
 char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
 int **alloc_grid(int width, int height);
@@ -32,5 +31,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 char **strtow(char *str);
 void *malloc_checked(unsigned int b);
 void *_calloc(unsigned int nmemb, unsigned int size);
+int *array_range(int min, int max);
 
 #endif
